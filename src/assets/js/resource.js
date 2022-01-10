@@ -8,11 +8,11 @@ export default [
         resourceIcon: 'fa fa-tachometer',
         children: []
     },
-    // {
-    //     resourceName: "message.resource.template.chlidren.tableOperation",
-    //     resourceUrl: "/tableOperation",
-    //     resourceIcon: "fa fa-file-text",
-    // },
+    {
+        resourceName: "message.resource.template.chlidren.tableOperation",
+        resourceUrl: "/table",
+        resourceIcon: "fa fa-file-text",
+    },
     {
         resourceName: "message.resource.function.name",
         resourceUrl: "/gongneng",

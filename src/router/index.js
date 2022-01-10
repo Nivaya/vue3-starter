@@ -78,6 +78,13 @@ const constantRouterMap = [
                 },
                 component: () => import("../views/form/tableOperation.vue")
             },
+             {
+                path: "/table",
+                meta: {
+                    title: 'resource.template.chlidren.tableOperation'
+                },
+                component: () => import("../views/form/table.vue")
+            },
             {
                 path: "/404",
                 meta: {
